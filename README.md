@@ -1,6 +1,7 @@
 # vscode-customization
 a simple VS Code theme customization settings.
 
+
 ```json
 {
     "workbench.colorCustomizations": {
@@ -16,3 +17,24 @@ a simple VS Code theme customization settings.
         "titleBar.activeForeground": "#d6e1ff8e",
     }
 }
+```
+## Setting Up In Your Project
+
+First, open Visual Studio Code and create a folder named `.vscode`.
+
+To create the folder:
+
+1. **Open Visual Studio Code**.
+2. **Create a New Workspace** or open an existing folder.
+3. **Open the Integrated Terminal** by selecting `View > Terminal` or pressing `` Ctrl + ` ``.
+4. **Create the `.vscode` Folder** using the following command:
+
+   ```bash
+   mkdir .vscode
+   ```
+   Inside **`.vscode` Folder** create a **new File `settings.json`**
+5. Then last **Copy** The `json` code and paste inside `settings.json` file & save it .
+6. **Theme recomanded -**  Best Themes - Ayu darkvenom
+
+## Now you have a well-structured VS Code customization!
+
